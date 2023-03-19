@@ -32,6 +32,25 @@ a.header-link {
     margin: 0px;
 }
 
+/*Body style*/
+
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 2em;
+    font-family: "arial";
+}
+
+ul,ol,dl,p {
+  font-size: 1rem;
+}
+
+li, p {
+  line-height: 1.5;
+}
 
 a.header-link:hover {
     background-color: beige;
@@ -42,6 +61,7 @@ a.header-link:hover {
     margin-left: 7%;
     font-size: 50px;
 }
+
 
 
 /* Footer styles */
