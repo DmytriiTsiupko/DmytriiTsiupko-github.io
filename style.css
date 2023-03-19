@@ -1,12 +1,14 @@
 body {
-    background-color: #6e1010;
+    background-color: bisque;
     margin: 0;
 }
 
 div.body {
     margin: 25px;
-    background-color: #6e1010;
+    background-color: bisque;
 }
+
+
 
 div.header-container {
     display: grid;
@@ -15,29 +17,26 @@ div.header-container {
     background-color: darkred;
     height: 100px;
     align-items: center;
-
 }
 
 
-div.header-item {
-    height: 100%;
-    width: 100%;
-    line-height: 100px;
-    font-size: 17px;
+a.header-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-}
-
-
-.header-item:hover {
-    color: crimson;
-    background-color: beige;
-}
-
-.header-item > a {
+    width: 100%;
+    height: 100%;
     text-decoration: none;
     color: beige;
+    margin: 0px;
 }
 
+
+a.header-link:hover {
+    background-color: beige;
+    color: darkred;
+}
 
 .logo {
     margin-left: 7%;
@@ -46,22 +45,25 @@ div.header-item {
 
 
 /* Footer styles */
+footer {
+    margin: 0;
+}
 
-.footer-container {
-    margin: 10px;
-    margin-bottom: 0;
+div.footer-container {
+    margin: 0px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .footer-item {
     text-align: center;
-    color: beige;
+    color: darkred;
+    margin-bottom: 10px;
 }
 
 .footer-item > a {
     text-decoration: none;
-    color: beige;
+    color: darkred;
 }
 
 
